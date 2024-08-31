@@ -1,0 +1,99 @@
+Flutter crash report.
+Please report a bug at https://github.com/flutter/flutter/issues.
+
+## command
+
+flutter --quiet assemble --no-version-check --depfile C:\Users\arnav\OneDrive\Desktop\Flutter Apps\ExpenseApp\build\app\intermediates\flutter\debug/flutter_build.d --output C:\Users\arnav\OneDrive\Desktop\Flutter Apps\ExpenseApp\build\app\intermediates\flutter\debug -dTargetFile=C:\Users\arnav\OneDrive\Desktop\Flutter Apps\ExpenseApp\lib\main.dart -dTargetPlatform=android -dBuildMode=debug -dTrackWidgetCreation=true -dFlavor= -dAndroidArchs=android-x64 -dMinSdkVersion=21 debug_android_application
+
+## exception
+
+FileSystemException: FileSystemException: Failed to decode data using encoding 'utf-8', path = 'C:\Users\arnav\OneDrive\Desktop\Flutter Apps\ExpenseApp\.dart_tool\flutter_build\3cd761214cbeb6864692eed5837b62bd\kernel_snapshot_program.d'
+
+```
+#0      _File._tryDecode (dart:io/file_impl.dart:615:7)
+#1      _File.readAsStringSync (dart:io/file_impl.dart:624:7)
+#2      ForwardingFile.readAsStringSync (package:file/src/forwarding/forwarding_file.dart:99:16)
+#3      ErrorHandlingFile.readAsStringSync.<anonymous closure> (package:flutter_tools/src/base/error_handling_io.dart:230:22)
+#4      _runSync (package:flutter_tools/src/base/error_handling_io.dart:600:14)
+#5      ErrorHandlingFile.readAsStringSync (package:flutter_tools/src/base/error_handling_io.dart:229:12)
+#6      SourceVisitor.visitDepfile (package:flutter_tools/src/build_system/source.dart:55:37)
+#7      _Array.forEach (dart:core-patch/array.dart:41:8)
+#8      Target._resolveConfiguration (package:flutter_tools/src/build_system/build_system.dart:259:14)
+#9      Target.resolveInputs (package:flutter_tools/src/build_system/build_system.dart:202:12)
+#10     Target._toNode (package:flutter_tools/src/build_system/build_system.dart:160:39)
+#11     Target._toNode (package:flutter_tools/src/build_system/build_system.dart:167:58)
+#12     Target._toNode (package:flutter_tools/src/build_system/build_system.dart:167:58)
+#13     FlutterBuildSystem.build (package:flutter_tools/src/build_system/build_system.dart:624:30)
+#14     AssembleCommand.runCommand (package:flutter_tools/src/commands/assemble.dart:328:51)
+#15     FlutterCommand.verifyThenRunCommand (package:flutter_tools/src/runner/flutter_command.dart:1772:12)
+<asynchronous suspension>
+#16     FlutterCommand.run.<anonymous closure> (package:flutter_tools/src/runner/flutter_command.dart:1408:27)
+<asynchronous suspension>
+#17     AppContext.run.<anonymous closure> (package:flutter_tools/src/base/context.dart:153:19)
+<asynchronous suspension>
+#18     CommandRunner.runCommand (package:args/command_runner.dart:212:13)
+<asynchronous suspension>
+#19     FlutterCommandRunner.runCommand.<anonymous closure> (package:flutter_tools/src/runner/flutter_command_runner.dart:420:9)
+<asynchronous suspension>
+#20     AppContext.run.<anonymous closure> (package:flutter_tools/src/base/context.dart:153:19)
+<asynchronous suspension>
+#21     FlutterCommandRunner.runCommand (package:flutter_tools/src/runner/flutter_command_runner.dart:364:5)
+<asynchronous suspension>
+#22     run.<anonymous closure>.<anonymous closure> (package:flutter_tools/runner.dart:130:9)
+<asynchronous suspension>
+#23     AppContext.run.<anonymous closure> (package:flutter_tools/src/base/context.dart:153:19)
+<asynchronous suspension>
+#24     main (package:flutter_tools/executable.dart:93:3)
+<asynchronous suspension>
+```
+
+## flutter doctor
+
+```
+[✓] Flutter (Channel stable, 3.24.0, on Microsoft Windows [Version 10.0.22631.3880], locale en-IN)
+    • Flutter version 3.24.0 on channel stable at C:\src\flutter
+    • Upstream repository https://github.com/flutter/flutter.git
+    • Framework revision 80c2e84975 (12 days ago), 2024-07-30 23:06:49 +0700
+    • Engine revision b8800d88be
+    • Dart version 3.5.0
+    • DevTools version 2.37.2
+
+[✓] Windows Version (Installed version of Windows is version 10 or higher)
+
+[!] Android toolchain - develop for Android devices (Android SDK version 35.0.0)
+    • Android SDK at C:\Users\arnav\AppData\Local\Android\sdk
+    • Platform android-35, build-tools 35.0.0
+    • Java binary at: C:\Program Files\Android\Android Studio\jbr\bin\java
+    • Java version OpenJDK Runtime Environment (build 17.0.11+0--11852314)
+    ! Some Android licenses not accepted. To resolve this, run: flutter doctor --android-licenses
+
+[✗] Chrome - develop for the web (Cannot find Chrome executable at .\Google\Chrome\Application\chrome.exe)
+    ! Cannot find Chrome. Try setting CHROME_EXECUTABLE to a Chrome executable.
+
+[✗] Visual Studio - develop Windows apps
+    ✗ Visual Studio not installed; this is necessary to develop Windows apps.
+      Download at https://visualstudio.microsoft.com/downloads/.
+      Please install the "Desktop development with C++" workload, including all of its default components
+
+[✓] Android Studio (version 2024.1)
+    • Android Studio at C:\Program Files\Android\Android Studio
+    • Flutter plugin can be installed from:
+      🔨 https://plugins.jetbrains.com/plugin/9212-flutter
+    • Dart plugin can be installed from:
+      🔨 https://plugins.jetbrains.com/plugin/6351-dart
+    • Java version OpenJDK Runtime Environment (build 17.0.11+0--11852314)
+
+[✓] VS Code (version 1.92.1)
+    • VS Code at C:\Users\arnav\AppData\Local\Programs\Microsoft VS Code
+    • Flutter extension version 3.94.0
+
+[✓] Connected device (3 available)
+    • sdk gphone16k x86 64 (mobile) • emulator-5554 • android-x64    • Android 14 (API 34) (emulator)
+    • Windows (desktop)             • windows       • windows-x64    • Microsoft Windows [Version 10.0.22631.3880]
+    • Edge (web)                    • edge          • web-javascript • Microsoft Edge 127.0.2651.98
+
+[✓] Network resources
+    • All expected network resources are available.
+
+! Doctor found issues in 3 categories.
+```

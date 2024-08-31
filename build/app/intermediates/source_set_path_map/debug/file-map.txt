@@ -1,0 +1,28 @@
+com.example.expenseapp-jetified-window-1.2.0-0 C:\Users\arnav\.gradle\caches\transforms-3\00de5e391f58534924aec9d7eb1932c1\transformed\jetified-window-1.2.0\res
+com.example.expenseapp-lifecycle-livedata-2.7.0-1 C:\Users\arnav\.gradle\caches\transforms-3\0698606bf2e307421058e699b0ccc962\transformed\lifecycle-livedata-2.7.0\res
+com.example.expenseapp-lifecycle-runtime-2.7.0-2 C:\Users\arnav\.gradle\caches\transforms-3\179d9d74a18b05f7795ad10efa91ff5c\transformed\lifecycle-runtime-2.7.0\res
+com.example.expenseapp-lifecycle-livedata-core-2.7.0-3 C:\Users\arnav\.gradle\caches\transforms-3\28867ff9744f9ff82a4efb7ca10a5a31\transformed\lifecycle-livedata-core-2.7.0\res
+com.example.expenseapp-jetified-core-1.0.0-4 C:\Users\arnav\.gradle\caches\transforms-3\2b5c6d2990d9b026e1e5029869defe52\transformed\jetified-core-1.0.0\res
+com.example.expenseapp-core-runtime-2.2.0-5 C:\Users\arnav\.gradle\caches\transforms-3\3250f6bcd9ea927251fa9f71edd9fa63\transformed\core-runtime-2.2.0\res
+com.example.expenseapp-lifecycle-viewmodel-2.7.0-6 C:\Users\arnav\.gradle\caches\transforms-3\3d856021d9cb537c2d5768e33d49b0af\transformed\lifecycle-viewmodel-2.7.0\res
+com.example.expenseapp-jetified-core-ktx-1.13.1-7 C:\Users\arnav\.gradle\caches\transforms-3\3e2de7eaa9af98ddaaf444e7978bf697\transformed\jetified-core-ktx-1.13.1\res
+com.example.expenseapp-jetified-activity-1.8.1-8 C:\Users\arnav\.gradle\caches\transforms-3\43c7f750a1e6b4972baf797bff3d79a1\transformed\jetified-activity-1.8.1\res
+com.example.expenseapp-jetified-savedstate-1.2.1-9 C:\Users\arnav\.gradle\caches\transforms-3\44aad5c39fcc926b2a0e540ded8172cc\transformed\jetified-savedstate-1.2.1\res
+com.example.expenseapp-jetified-window-java-1.2.0-10 C:\Users\arnav\.gradle\caches\transforms-3\57bf8f7e6bd54fb80774fd80e04fffd7\transformed\jetified-window-java-1.2.0\res
+com.example.expenseapp-jetified-tracing-1.2.0-11 C:\Users\arnav\.gradle\caches\transforms-3\7ee0204a3f0e60f9be5d6ec1d81a5e34\transformed\jetified-tracing-1.2.0\res
+com.example.expenseapp-jetified-lifecycle-process-2.7.0-12 C:\Users\arnav\.gradle\caches\transforms-3\929e1d1d32f11871cf60390a354d3cee\transformed\jetified-lifecycle-process-2.7.0\res
+com.example.expenseapp-jetified-lifecycle-livedata-core-ktx-2.7.0-13 C:\Users\arnav\.gradle\caches\transforms-3\a6fa36012ef62552ad054c1e8fed6004\transformed\jetified-lifecycle-livedata-core-ktx-2.7.0\res
+com.example.expenseapp-jetified-lifecycle-viewmodel-savedstate-2.7.0-14 C:\Users\arnav\.gradle\caches\transforms-3\b0c5adf632220c4a2f4c4466e680d7b2\transformed\jetified-lifecycle-viewmodel-savedstate-2.7.0\res
+com.example.expenseapp-jetified-startup-runtime-1.1.1-15 C:\Users\arnav\.gradle\caches\transforms-3\d1c0ef65a865a92ce8778b838ad43948\transformed\jetified-startup-runtime-1.1.1\res
+com.example.expenseapp-fragment-1.7.1-16 C:\Users\arnav\.gradle\caches\transforms-3\d51cce04d4fb1661ea61a3d3d69d4ea4\transformed\fragment-1.7.1\res
+com.example.expenseapp-jetified-annotation-experimental-1.4.0-17 C:\Users\arnav\.gradle\caches\transforms-3\d5d6612736d2bece4bd6aeed84bac22f\transformed\jetified-annotation-experimental-1.4.0\res
+com.example.expenseapp-jetified-profileinstaller-1.3.1-18 C:\Users\arnav\.gradle\caches\transforms-3\e6e6f7295530f441e13b372b1cea5a11\transformed\jetified-profileinstaller-1.3.1\res
+com.example.expenseapp-core-1.13.1-19 C:\Users\arnav\.gradle\caches\transforms-3\f9594cdc892b2bd2966ae71c343dc057\transformed\core-1.13.1\res
+com.example.expenseapp-debug-20 C:\Users\arnav\OneDrive\Desktop\Flutter Apps\ExpenseApp\android\app\src\debug\res
+com.example.expenseapp-main-21 C:\Users\arnav\OneDrive\Desktop\Flutter Apps\ExpenseApp\android\app\src\main\res
+com.example.expenseapp-pngs-22 C:\Users\arnav\OneDrive\Desktop\Flutter Apps\ExpenseApp\build\app\generated\res\pngs\debug
+com.example.expenseapp-resValues-23 C:\Users\arnav\OneDrive\Desktop\Flutter Apps\ExpenseApp\build\app\generated\res\resValues\debug
+com.example.expenseapp-rs-24 C:\Users\arnav\OneDrive\Desktop\Flutter Apps\ExpenseApp\build\app\generated\res\rs\debug
+com.example.expenseapp-mergeDebugResources-25 C:\Users\arnav\OneDrive\Desktop\Flutter Apps\ExpenseApp\build\app\intermediates\incremental\debug\mergeDebugResources\merged.dir
+com.example.expenseapp-mergeDebugResources-26 C:\Users\arnav\OneDrive\Desktop\Flutter Apps\ExpenseApp\build\app\intermediates\incremental\debug\mergeDebugResources\stripped.dir
+com.example.expenseapp-merged_res-27 C:\Users\arnav\OneDrive\Desktop\Flutter Apps\ExpenseApp\build\app\intermediates\merged_res\debug
